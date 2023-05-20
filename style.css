@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    color: white;
+    margin: 20px;
+}
+
+.filter,.addUser{
+   margin-top: 10px;
+   padding: 20px;
+}
+.selectone{
+    border: 1px solid white;
+    width: 12%;
+    margin: 45px 0px;
+}
+option{
+    color: black;
+}
+
+.user{
+   
+    border: 1px solid white;
+    width : 30%;
+    height: 25px;
+    margin-top:20px;
+    padding: 10px;
+    padding-left: 0;
+    border-radius: 8px;
+}
+
+span{
+    padding: 15px 10px;
+    
+}
+select{
+    background: transparent;
+    border: none;
+    /* border: 1px solid white; */
+    color: white;
+    height: 40px;
+    padding: 10px;
+    width: 150px;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    /* box-sizing: border-box; */
+
+   
+    
+}
+select:focus{
+    outline: none;
+}
+p{
+    font-size: 20px;
+}
+button{
+    background-color: white;
+    color: black;
+    width: 150px;
+    height: 50px;
+    font-size: 17px;
+    padding: 8px;
+    margin-top: 30px;
+   
+}
+.userinput{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+input{
+    background: transparent;
+    border: 1px solid white;
+    width: 400px;
+    height: 30px;
+    color: white;
+    padding: 10px;
+}

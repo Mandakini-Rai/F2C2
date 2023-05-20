@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="filter">
+    <p id="one"> Filter ui cards via their profession.</p>
+   <div class="selectone">
+    <select id="select">
+        <option >Profession</option>
+        <option>developer</option>
+        <option>admin</option>
+    </select>
+   </div>
+    <div id ="employees">
+       
+    </div>
+    <button type="submit" id="btn1" onclick="filterByProfession()">Filter</button>
+    </div>
+    <div class="addUser">
+        <p>Add a new user</p>
+        <div class="userinput">
+            <div class="info">
+                Enter Name
+                <input type="text">
+            </div>
+            <div class="info">
+                Enter Profession
+                <input type="text">
+            </div>
+            <div class="info">
+                Enter Age
+                <input type="text">
+            </div>
+           
+        </div>
+        <button type="submit" onclick="addUser()">Add User</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
